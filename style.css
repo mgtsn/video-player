@@ -14,3 +14,19 @@
 #navbar a:hover {
     background-color: blueviolet;
 }
+
+#content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#content-main {
+    flex: 1 1 70%;
+    min-width: 25ch;
+    display: flex;
+    justify-content: center;
+}
+
+#content-side {
+    flex: 1 1 30%;
+}
